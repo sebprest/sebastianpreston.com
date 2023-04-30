@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format:write": "prettier --write '*.{html,css}'"
+    "format:write": "prettier --write '{pages,components,styles}/*.{html,css,ts,tsx,js,jsx}'"
   },
   "devDependencies": {
     "@types/node": "18.16.3",
@@ -17,6 +17,7 @@
     "eslint-config-next": "13.3.2",
     "postcss": "^8.4.23",
     "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.8",
     "tailwindcss": "^3.3.2",
     "typescript": "5.0.4"
   },
