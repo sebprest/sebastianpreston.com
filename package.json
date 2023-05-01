@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format:write": "prettier --write '{pages,components,styles}/*.{html,css,ts,tsx,js,jsx}'"
+    "format:write": "prettier --write '{pages,components,styles}/**/*.{html,css,ts,tsx,js,jsx}'"
   },
   "devDependencies": {
     "@types/node": "18.16.3",
@@ -22,6 +22,7 @@
     "typescript": "5.0.4"
   },
   "dependencies": {
+    "lucide-react": "^0.188.0",
     "next": "^13.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
