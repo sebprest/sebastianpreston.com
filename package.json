@@ -2,15 +2,29 @@
   "name": "personal-website",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "format:write": "prettier --write '*.{html,css}'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:write": "prettier --write '{pages,components,styles}/**/*.{html,css,ts,tsx,js,jsx}'"
   },
   "devDependencies": {
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.2",
+    "postcss": "^8.4.23",
     "prettier": "^2.8.4",
-    "vite": "^4.1.0"
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "lucide-react": "^0.188.0",
+    "next": "^13.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
