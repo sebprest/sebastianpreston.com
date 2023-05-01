@@ -20,7 +20,7 @@ function HomePage() {
     <main
       className={`flex h-screen w-screen items-center justify-center ${roboto.className}`}
     >
-      <article className="rounded-xl bg-slate-100 p-8 shadow-xl md:max-w-xl">
+      <article className="m-4 rounded-xl bg-slate-100 p-8 shadow-xl md:max-w-xl">
         <h1 className="text-2xl">
           <span className="font-thin">Sebastian</span> Preston
         </h1>
@@ -28,7 +28,7 @@ function HomePage() {
           Software Engineer with 5 years of professional experience designing,
           developing and deploying mission-critical web and mobile applications
         </p>
-        <div className="flex w-1/4 flex-row justify-between">
+        <div className="flex w-32 flex-row justify-between">
           {SocialButtons.map(({ name, icon, url }) => (
             <SocialButton name={name} icon={icon} url={url} key={name} />
           ))}
