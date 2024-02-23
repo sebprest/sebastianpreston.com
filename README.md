@@ -2,7 +2,7 @@
 
 [Link to live site](https://www.sebastianpreston.com/)
 
-The source for [sebastianpreston.com](https://www.sebastianpreston.com/), my personal website. Its design and implementation are intentionally minimal to maximise performance, accessibility and functionality.
+The source for [sebastianpreston.com](https://www.sebastianpreston.com/), my personal website.
 
 ## Dev Setup
 
